@@ -271,6 +271,7 @@ body.lock{
 /*=============================Slider=========================================*/
 .slider {
 	position: relative;
+	z-index: 0;
 	li {
 		margin: 20px;
 	}
@@ -284,6 +285,7 @@ body.lock{
 	img {
 		width: 100%;
 		height: 100vh;
+		object-fit: cover;
 		}
 }
 .slider .slick-arrow {
